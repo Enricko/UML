@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T01:35:45.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="beC5k3uG2WGJUjyeIYbw" version="21.0.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-14T01:50:27.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="B5XhXjBBqPy7EqkwGdTY" version="21.0.6" type="github" pages="6">
   <diagram name="Usecase" id="c7D7NvM5MoOwKjd966R9">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -543,6 +543,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="LCO2FnGTFDEJvs5XtIbT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dNBPWQIimkl4cz8Ny6WG-15" target="LCO2FnGTFDEJvs5XtIbT-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="330" />
+              <mxPoint x="322" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dNBPWQIimkl4cz8Ny6WG-15" value="Petugas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
         </mxCell>
@@ -559,6 +567,14 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="630" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fnqPkrtaRp9RFxtMSFfj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dNBPWQIimkl4cz8Ny6WG-20" target="LCO2FnGTFDEJvs5XtIbT-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="330" />
+              <mxPoint x="388" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -587,6 +603,27 @@
         </mxCell>
         <mxCell id="LCO2FnGTFDEJvs5XtIbT-5" value="Session" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="475" y="195" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LCO2FnGTFDEJvs5XtIbT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.442;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LCO2FnGTFDEJvs5XtIbT-7" target="dNBPWQIimkl4cz8Ny6WG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnqPkrtaRp9RFxtMSFfj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCO2FnGTFDEJvs5XtIbT-7" target="dNBPWQIimkl4cz8Ny6WG-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCO2FnGTFDEJvs5XtIbT-7" value="CRUD Barang Lelang" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCO2FnGTFDEJvs5XtIbT-10" value="Tambah Barang&amp;nbsp; &amp;amp;&amp;nbsp; Buka Lelang" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="305" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LCO2FnGTFDEJvs5XtIbT-11" value="Data Barang &amp;amp; Lelang" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="335" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fnqPkrtaRp9RFxtMSFfj-7" value="Tambah Barang&amp;nbsp; &amp;amp;&amp;nbsp; Buka Lelang" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="305" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fnqPkrtaRp9RFxtMSFfj-8" value="Data Barang &amp;amp; Lelang" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="335" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
