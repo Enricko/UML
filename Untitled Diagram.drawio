@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T01:05:14.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lcqdaYwd--3yS3mZ1ugt" version="21.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-15T01:27:35.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fV7s6Mtr6l8J2zXLZBYT" version="21.0.6" type="github" pages="5">
   <diagram name="Usecase" id="c7D7NvM5MoOwKjd966R9">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1361" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,7 +124,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W9n4wvFoaWE0nmm7ZJLt" name="ERD">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1361" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,21 +276,70 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zD1pm2EThjQfFkTyDAnZ" name="Activity Diagram (Login)">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1701" dy="945" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bms6u4zEZFqMycBzoT_0-1" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="bms6u4zEZFqMycBzoT_0-1" value="User" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="340" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="bms6u4zEZFqMycBzoT_0-2" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2TbJ9_tcUUxFc7sLpdiL-7" value="" style="group;strokeWidth=1;" vertex="1" connectable="0" parent="bms6u4zEZFqMycBzoT_0-1">
+          <mxGeometry x="110" y="40" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ikIoOlBnxK5h91HGlKmS-3" value="" style="ellipse;html=1;shape=endState;strokeWidth=1;" vertex="1" parent="2TbJ9_tcUUxFc7sLpdiL-7">
+          <mxGeometry x="45" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TbJ9_tcUUxFc7sLpdiL-1" value="Halaman Login" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="2TbJ9_tcUUxFc7sLpdiL-7">
+          <mxGeometry y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2TbJ9_tcUUxFc7sLpdiL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;" edge="1" parent="2TbJ9_tcUUxFc7sLpdiL-7" source="ikIoOlBnxK5h91HGlKmS-3" target="2TbJ9_tcUUxFc7sLpdiL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iM68CCcq_Gd7D38cU6LX-6" value="Login" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-1">
+          <mxGeometry x="110" y="195" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iM68CCcq_Gd7D38cU6LX-7" value="Register" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-1">
+          <mxGeometry x="110" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bms6u4zEZFqMycBzoT_0-2" value="System" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="80" width="340" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="2TbJ9_tcUUxFc7sLpdiL-5" value="jika&lt;br&gt;Punya Akun" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
+          <mxGeometry x="130" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iM68CCcq_Gd7D38cU6LX-9" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
+          <mxGeometry x="115" y="135" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iM68CCcq_Gd7D38cU6LX-11" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
+          <mxGeometry x="185" y="190" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iM68CCcq_Gd7D38cU6LX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bms6u4zEZFqMycBzoT_0-2" source="iM68CCcq_Gd7D38cU6LX-12" target="iM68CCcq_Gd7D38cU6LX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iM68CCcq_Gd7D38cU6LX-12" value="Validasi" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
+          <mxGeometry x="100" y="245" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iM68CCcq_Gd7D38cU6LX-13" value="Jika ada kesalahan" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
+          <mxGeometry x="120" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2TbJ9_tcUUxFc7sLpdiL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="2TbJ9_tcUUxFc7sLpdiL-1" target="2TbJ9_tcUUxFc7sLpdiL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iM68CCcq_Gd7D38cU6LX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2TbJ9_tcUUxFc7sLpdiL-5" target="iM68CCcq_Gd7D38cU6LX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iM68CCcq_Gd7D38cU6LX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2TbJ9_tcUUxFc7sLpdiL-5" target="iM68CCcq_Gd7D38cU6LX-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="3eDj_wyRGpacO3A-Cm1v" name="Flowchart Masyarakat">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1361" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
