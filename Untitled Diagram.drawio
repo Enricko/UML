@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T01:47:29.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uGP4nJ3xeRo0CGhdY4Aq" version="21.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-15T01:52:55.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pqFkfPflZBzPLk0IZ6qb" version="21.0.6" type="github" pages="5">
   <diagram name="Usecase" id="c7D7NvM5MoOwKjd966R9">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -301,6 +301,12 @@
         <mxCell id="iM68CCcq_Gd7D38cU6LX-7" value="Register" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="bms6u4zEZFqMycBzoT_0-1" vertex="1">
           <mxGeometry x="110" y="140" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-13" value="Halaman Utama" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-1">
+          <mxGeometry x="110" y="555" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-16" value="Halaman Admin" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-1">
+          <mxGeometry x="110" y="625" width="120" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="bms6u4zEZFqMycBzoT_0-2" value="System" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="80" width="340" height="980" as="geometry" />
         </mxCell>
@@ -328,7 +334,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="otbEBGN6pAGigOINDGCM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bms6u4zEZFqMycBzoT_0-2" source="iM68CCcq_Gd7D38cU6LX-13" target="otbEBGN6pAGigOINDGCM-2">
+        <mxCell id="otbEBGN6pAGigOINDGCM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="bms6u4zEZFqMycBzoT_0-2" source="iM68CCcq_Gd7D38cU6LX-13" target="otbEBGN6pAGigOINDGCM-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iM68CCcq_Gd7D38cU6LX-13" value="Jika ada kesalahan" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" parent="bms6u4zEZFqMycBzoT_0-2" vertex="1">
@@ -341,10 +347,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="otbEBGN6pAGigOINDGCM-2" value="Set Session" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
-          <mxGeometry x="100" y="415" width="120" height="40" as="geometry" />
+          <mxGeometry x="100" y="470" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="otbEBGN6pAGigOINDGCM-5" value="Check Level" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
-          <mxGeometry x="120" y="480" width="80" height="80" as="geometry" />
+          <mxGeometry x="120" y="535" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bms6u4zEZFqMycBzoT_0-2" source="otbEBGN6pAGigOINDGCM-10" target="otbEBGN6pAGigOINDGCM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-10" value="Data Disimpan" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
+          <mxGeometry x="100" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-15" value="Level Masyarkat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
+          <mxGeometry x="15" y="550" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-18" value="Level Admin &amp;amp; Petugas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-2">
+          <mxGeometry x="10" y="615" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TbJ9_tcUUxFc7sLpdiL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" parent="1" source="2TbJ9_tcUUxFc7sLpdiL-1" target="2TbJ9_tcUUxFc7sLpdiL-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -368,6 +386,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aQvuT9NVwDPS9KX_3Oej-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iM68CCcq_Gd7D38cU6LX-6" target="iM68CCcq_Gd7D38cU6LX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="otbEBGN6pAGigOINDGCM-5" target="otbEBGN6pAGigOINDGCM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="otbEBGN6pAGigOINDGCM-5" target="otbEBGN6pAGigOINDGCM-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
