@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T01:52:55.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pqFkfPflZBzPLk0IZ6qb" version="21.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-15T01:57:53.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qcw_pr0kk_an-7L3N5zV" version="21.0.6" type="github" pages="5">
   <diagram name="Usecase" id="c7D7NvM5MoOwKjd966R9">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -301,11 +301,20 @@
         <mxCell id="iM68CCcq_Gd7D38cU6LX-7" value="Register" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="bms6u4zEZFqMycBzoT_0-1" vertex="1">
           <mxGeometry x="110" y="140" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bms6u4zEZFqMycBzoT_0-1" source="otbEBGN6pAGigOINDGCM-13" target="otbEBGN6pAGigOINDGCM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="otbEBGN6pAGigOINDGCM-13" value="Halaman Utama" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-1">
           <mxGeometry x="110" y="555" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bms6u4zEZFqMycBzoT_0-1" source="otbEBGN6pAGigOINDGCM-16" target="otbEBGN6pAGigOINDGCM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="otbEBGN6pAGigOINDGCM-16" value="Halaman Admin" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-1">
           <mxGeometry x="110" y="625" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="otbEBGN6pAGigOINDGCM-19" value="" style="ellipse;html=1;shape=endState;strokeWidth=1;" vertex="1" parent="bms6u4zEZFqMycBzoT_0-1">
+          <mxGeometry x="155" y="735" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bms6u4zEZFqMycBzoT_0-2" value="System" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="80" width="340" height="980" as="geometry" />
