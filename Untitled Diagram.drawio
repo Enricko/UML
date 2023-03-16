@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T04:59:03.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="XoxJTA7J1ZedxKkI4_Jw" version="21.0.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-16T05:02:30.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="DVc6JjeJSkBOUIl8gnac" version="21.0.6" type="github" pages="9">
   <diagram id="W9n4wvFoaWE0nmm7ZJLt" name="ERD">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1667,10 +1667,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vvhx0yQoZ7j-leVHHmdv" name="Sequence Diagram (Laporan)">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="610" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oZg1W6dO0GfvtEmyQbiE-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="oZg1W6dO0GfvtEmyQbiE-11" target="oZg1W6dO0GfvtEmyQbiE-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100.03999999999996" y="125.91000000000003" as="sourcePoint" />
+            <mxPoint x="340" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oZg1W6dO0GfvtEmyQbiE-7" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oZg1W6dO0GfvtEmyQbiE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oZg1W6dO0GfvtEmyQbiE-11" target="oZg1W6dO0GfvtEmyQbiE-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="120" />
+              <mxPoint x="150" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oZg1W6dO0GfvtEmyQbiE-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oZg1W6dO0GfvtEmyQbiE-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="20" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
