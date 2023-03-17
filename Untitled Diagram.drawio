@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T01:48:43.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Y9sj6-KrWrsLWPsC1-ow" version="21.0.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-03-17T01:54:31.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rk3Omq8nMDJwKvKqHtzh" version="21.0.6" type="github" pages="12">
   <diagram id="W9n4wvFoaWE0nmm7ZJLt" name="ERD">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1036,7 +1036,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_OQuCI0fZ6iGdTkgmdfx" name="Activity Diagram (CRUD Barang &amp; Lelang)">
-    <mxGraphModel dx="1509" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2868" dy="1512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1759,7 +1759,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="189VIEYAHI0cz0TIqims" name="Sequence Digram (Login)">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2497,7 +2497,7 @@
           <mxGeometry x="270" y="110" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="idgd19pr9S5Rdoy-v-kP-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="635" y="160" width="20" height="450" as="geometry" />
+          <mxGeometry x="635" y="160" width="20" height="180" as="geometry" />
         </mxCell>
         <mxCell id="idgd19pr9S5Rdoy-v-kP-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="idgd19pr9S5Rdoy-v-kP-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2514,8 +2514,8 @@
             <mxPoint x="635" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="idgd19pr9S5Rdoy-v-kP-18" value="Penawaran" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="505" y="135" width="80" height="30" as="geometry" />
+        <mxCell id="idgd19pr9S5Rdoy-v-kP-18" value="Cek penawaran" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490" y="135" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="idgd19pr9S5Rdoy-v-kP-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2642,6 +2642,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="520" as="sourcePoint" />
             <mxPoint x="220" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODEcAan4RNSVWTEC1uhJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="460" width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ODEcAan4RNSVWTEC1uhJ-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ODEcAan4RNSVWTEC1uhJ-1" target="idgd19pr9S5Rdoy-v-kP-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="150" as="sourcePoint" />
+            <mxPoint x="454.65999999999997" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
