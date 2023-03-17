@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T02:30:06.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZN1zQ1aXjQnikExAWpD6" version="21.0.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-03-17T02:38:38.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZtOyuJfa4tB6j6EnQm1f" version="21.0.6" type="github" pages="13">
   <diagram id="W9n4wvFoaWE0nmm7ZJLt" name="ERD">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1454,7 +1454,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-KBHvcAdvdXrqOuhuP5C" name="Activity Diagram (CRUD User)">
-    <mxGraphModel dx="584" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1759,7 +1759,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="189VIEYAHI0cz0TIqims" name="Sequence Digram (Login)">
-    <mxGraphModel dx="2390" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1848,23 +1848,6 @@
             <mxPoint x="939.8" y="255" as="sourcePoint" />
             <mxPoint x="939.8" y="210" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="3nTTqRrkykWID0KJqUOn-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="459.99999999999994" width="20" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3nTTqRrkykWID0KJqUOn-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3nTTqRrkykWID0KJqUOn-32" target="3nTTqRrkykWID0KJqUOn-39" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1555" y="415.2" as="sourcePoint" />
-            <mxPoint x="1560" y="435.2" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1570" y="415.2" />
-              <mxPoint x="1590" y="415.2" />
-              <mxPoint x="1590" y="460.2" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3nTTqRrkykWID0KJqUOn-41" value="Menyimpan data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1585" y="425" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3nTTqRrkykWID0KJqUOn-44" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=-0.055;exitY=0.336;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.029;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2009,23 +1992,6 @@
             <mxPoint x="84.79999999999995" y="209.60000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eAzSDmhjuQ-PxRismBsp-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="685" y="459.6" width="20" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eAzSDmhjuQ-PxRismBsp-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eAzSDmhjuQ-PxRismBsp-54" target="eAzSDmhjuQ-PxRismBsp-61">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="414.80000000000007" as="sourcePoint" />
-            <mxPoint x="705" y="434.80000000000007" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="715" y="414.80000000000007" />
-              <mxPoint x="735" y="414.80000000000007" />
-              <mxPoint x="735" y="459.80000000000007" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eAzSDmhjuQ-PxRismBsp-63" value="Menyimpan data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="730" y="424.6" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="eAzSDmhjuQ-PxRismBsp-64" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=-0.055;exitY=0.336;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.029;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="473" y="359.31000000000006" as="sourcePoint" />
@@ -2169,23 +2135,6 @@
             <mxPoint x="1754.8" y="214.21000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ld69hfUbfyL_VJ3DmHDs-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2355" y="464.21000000000004" width="20" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ld69hfUbfyL_VJ3DmHDs-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="Ld69hfUbfyL_VJ3DmHDs-14" target="Ld69hfUbfyL_VJ3DmHDs-21" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2370" y="419.4100000000001" as="sourcePoint" />
-            <mxPoint x="2375" y="439.4100000000001" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2385" y="419.4100000000001" />
-              <mxPoint x="2405" y="419.4100000000001" />
-              <mxPoint x="2405" y="464.4100000000001" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ld69hfUbfyL_VJ3DmHDs-23" value="Menyimpan data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2400" y="429.21000000000004" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Ld69hfUbfyL_VJ3DmHDs-24" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=-0.055;exitY=0.336;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.029;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2143" y="363.9200000000001" as="sourcePoint" />
@@ -2247,7 +2196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0wqUDaW4KM40gZ0M-c3W" name="Sequence Diagram (Register)">
-    <mxGraphModel dx="139" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="837" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2257,8 +2206,8 @@
             <mxPoint x="1180" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mZ2sYe2G-Wr4zhb5A4B--2" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="910" y="70" width="60" height="30" as="geometry" />
+        <mxCell id="mZ2sYe2G-Wr4zhb5A4B--2" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="915" y="70" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mZ2sYe2G-Wr4zhb5A4B--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mZ2sYe2G-Wr4zhb5A4B--4" target="mZ2sYe2G-Wr4zhb5A4B--5">
           <mxGeometry relative="1" as="geometry">
@@ -2869,6 +2818,14 @@
             <mxPoint x="89.8" y="555" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ITf0IOZfYgtaLjDYg1bH" name="Sequence Diagram (Tambah User)">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
