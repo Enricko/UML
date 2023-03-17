@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T03:44:53.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3_1whBCVKmlZYjqJluC0" version="21.0.6" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-03-17T03:58:04.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9sziuKZCGPoKzFzdewW7" version="21.0.6" type="github" pages="15">
   <diagram id="W9n4wvFoaWE0nmm7ZJLt" name="ERD">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1758,8 +1758,53 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="a5m-dGVAERKcQnaSoSF4" name="Activity Diagram (Laporan)">
+    <mxGraphModel dx="584" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-1" value="Admin" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="930" y="30" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-3" value="Halaman Table User" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="QMl7V6AZA3ZpMDMfgatn-1">
+          <mxGeometry x="110" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QMl7V6AZA3ZpMDMfgatn-1" source="QMl7V6AZA3ZpMDMfgatn-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-5" value="" style="ellipse;html=1;shape=endState;strokeWidth=1;" vertex="1" parent="QMl7V6AZA3ZpMDMfgatn-1">
+          <mxGeometry x="155" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-16" value="" style="ellipse;html=1;shape=endState;strokeWidth=1;" vertex="1" parent="QMl7V6AZA3ZpMDMfgatn-1">
+          <mxGeometry x="155" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="QMl7V6AZA3ZpMDMfgatn-1" target="QMl7V6AZA3ZpMDMfgatn-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-29" value="Menampilkan Data Laporan" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="QMl7V6AZA3ZpMDMfgatn-1">
+          <mxGeometry x="110" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-19" value="System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="30" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-28" value="Proses Data Laporan" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="QMl7V6AZA3ZpMDMfgatn-19">
+          <mxGeometry x="100" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QMl7V6AZA3ZpMDMfgatn-3" target="QMl7V6AZA3ZpMDMfgatn-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMl7V6AZA3ZpMDMfgatn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QMl7V6AZA3ZpMDMfgatn-28" target="QMl7V6AZA3ZpMDMfgatn-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="189VIEYAHI0cz0TIqims" name="Sequence Digram (Login)">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4097" dy="2160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
