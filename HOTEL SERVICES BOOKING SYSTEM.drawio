@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T08:54:52.265Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="K_cqXvSK9bAyUUSpQY8c" version="22.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T08:55:48.669Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8dprfbfRk0bNpNcBSE1a" version="22.0.7" type="github">
   <diagram name="Halaman-1" id="vdJ7HHc0wl6ZHaO2FCbe">
     <mxGraphModel dx="1761" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,7 +158,7 @@
         <mxCell id="DwY1cL7tWrZXX4sp5qbh-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DwY1cL7tWrZXX4sp5qbh-36" target="DwY1cL7tWrZXX4sp5qbh-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DwY1cL7tWrZXX4sp5qbh-128" value="Selesai Order" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DwY1cL7tWrZXX4sp5qbh-106">
+        <mxCell id="DwY1cL7tWrZXX4sp5qbh-128" value="Order Checkout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DwY1cL7tWrZXX4sp5qbh-106">
           <mxGeometry x="-0.2749" y="6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
